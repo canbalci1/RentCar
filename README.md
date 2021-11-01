@@ -19,5 +19,4 @@
 <p>IEntity, IDto, IEntityRepository, EfEntityRepositoryBase dosyalarını oluşturdum. </p>
 <p>Car,Brand,Color sınıflarımı tüm CRUD operasyonlarına hazır hale getirdim. </p>
 <p>Oluşturulan Dto yapısı ile arabaları şu bilgiler olacak şekilde listelelendirdim.</p> 
-<br>
 <p>CarName-BrandName-ColorName-DailyPrice </p>
