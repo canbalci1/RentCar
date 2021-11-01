@@ -13,3 +13,9 @@
 <p>Sisteme yeni araçlar eklenmesini sağlayan Add( ) metoduna kurallar yazdım.</p>
 <ul><li>Araba ismi minimum 2 karakter olmalı.</li>
   <li>Araba günlük fiyatı 0 dan büyük olmalı.</li></ul>
+<br>
+<h5>01.11.2021</h5> 
+<p>Temel yapıların bir başka projemdede kullanabilmek adına Core katmanı oluşturdum.</p>
+<p>IEntity, IDto, IEntityRepository, EfEntityRepositoryBase dosyalarını oluşturdum. </p>
+<p>Car,Brand,Color sınıflarımı tüm CRUD operasyonlarına hazır hale getirdim. </p>
+<p>Oluşturulan Dto yapısı ile arabaları şu bilgiler olacak şekilde listelelendirdim. CarName, BrandName, ColorName, DailyPrice </p>
