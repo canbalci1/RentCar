@@ -21,7 +21,7 @@
 <p>Oluşturulan Dto yapısı ile arabaları şu bilgiler olacak şekilde listelelendirdim.</p> 
 <p>CarName-BrandName-ColorName-DailyPrice </p>
 <br>
-<h6>09.11.2021</h6>
+<h5>09.11.2021</h5>
 <p>Core katmanında Results yapılandırması yaptım.</p>
 <p>Kullanıcılar,Müşteriler ve Kiralama tablolarını veri tabanında oluşturdum.Bunları birbirleriyle ilişkilendirdim.</p>
 <p>C.R.U.D operasyonlarını tüm Entityler için gerçekleştirdim.</p>
