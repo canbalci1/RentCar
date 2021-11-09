@@ -20,3 +20,9 @@
 <p>Car,Brand,Color sınıflarımı tüm CRUD operasyonlarına hazır hale getirdim. </p>
 <p>Oluşturulan Dto yapısı ile arabaları şu bilgiler olacak şekilde listelelendirdim.</p> 
 <p>CarName-BrandName-ColorName-DailyPrice </p>
+<br>
+<h6>09.11.2021</h6>
+<p>Core katmanında Results yapılandırması yaptım.</p>
+<p>Kullanıcılar,Müşteriler ve Kiralama tablolarını veri tabanında oluşturdum.Bunları birbirleriyle ilişkilendirdim.</p>
+<p>C.R.U.D operasyonlarını tüm Entityler için gerçekleştirdim.</p>
+<p>Arabanın kiralanabilmesi için arabanın teslim edilmesi gerekmesi için gerekli işlemleri gerçekleştirdim.</p>
