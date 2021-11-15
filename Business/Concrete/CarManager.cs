@@ -47,6 +47,7 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Car>> (_carDal.GetAll(p => p.ColorId == id));
         }
+     
 
         public IResult Add(Car car)
         {
@@ -68,6 +69,16 @@ namespace Business.Concrete
         {
             _carDal.Delete(car);
             return new SuccessResult(Messages.CarDeleted);
+        }
+
+        public IDataResult<Car> GetById(int id)
+        {
+            return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == id), Messages.CarListed);
+        }
+
+        public IDataResult<CarDetailDto> GetDetailById(int id)
+        {
+            return new SuccessDataResult<CarDetailDto>(_carDal.GetDetailById(id));
         }
     }
 }

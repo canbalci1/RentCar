@@ -18,7 +18,7 @@ namespace DataAccess.Concrete.EntityFramework
             using (CarsContext context = new CarsContext())
             {
                 var result = from c in context.Cars
-                             join b in context.Brands on c.Id equals b.Id
+                             join b in context.Brands on c.BrandId equals b.Id
                              join co in context.Colors on c.ColorId equals co.Id
 
 
@@ -32,5 +32,25 @@ namespace DataAccess.Concrete.EntityFramework
 
             
         }
+        public CarDetailDto GetDetailById(int id)
+        {
+            using (CarsContext context = new CarsContext())
+            {
+                var result = from c in context.Cars
+                             join b in context.Brands on c.BrandId equals b.Id
+                             join co in context.Colors on c.ColorId equals co.Id
+
+                             select new CarDetailDto
+                             {
+                                 Id = c.Id,
+                                 CarName = c.CarName,
+                                 BrandName = b.Name,
+                                 ColorName = co.Name,
+                                 DailyPrice = c.DailyPrice
+                             };
+                return result.FirstOrDefault(c => c.Id == id);
+            }
+        }
     }
+    
 }
