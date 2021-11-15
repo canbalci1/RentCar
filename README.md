@@ -26,3 +26,8 @@
 <p>Kullanıcılar,Müşteriler ve Kiralama tablolarını veri tabanında oluşturdum.Bunları birbirleriyle ilişkilendirdim.</p>
 <p>C.R.U.D operasyonlarını tüm Entityler için gerçekleştirdim.</p>
 <p>Arabanın kiralanabilmesi için arabanın teslim edilmesi gerekmesi için gerekli işlemleri gerçekleştirdim.</p>
+<br>
+<h5>15.11.2021</h5>
+<p>WebAPI katmanını kurdum.</p>
+<p>Business katmanındaki tüm servislerin Api karşılığını yazdım.</p>
+<p>Postman'de test ettim.</p>
