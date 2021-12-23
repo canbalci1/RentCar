@@ -1,0 +1,140 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "2af7700a-422e-4dc5-a126-8044e1d2a4a2",
+			"uid": "0-2af7700a-422e-4dc5-a126-8044e1d2a4a2",
+			"name": "Rent a Car",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"8feba790-2004-4d36-a776-1e5a92440398",
+				"513a76fd-36da-4fcd-a00e-61d9ea921926",
+				"9eff5b11-fa4c-4be8-b0f7-209a2ec2cfb4",
+				"4c895ea2-58b7-4531-95dc-e662762c43e4"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"createdAt": "2021-11-11T08:20:44.922Z",
+			"folders": [],
+			"requests": [
+				{
+					"id": "4c895ea2-58b7-4531-95dc-e662762c43e4",
+					"uid": "0-4c895ea2-58b7-4531-95dc-e662762c43e4",
+					"name": "Update",
+					"url": "https://localhost:44391/api/brands/update",
+					"description": "",
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "2af7700a-422e-4dc5-a126-8044e1d2a4a2",
+					"rawModeData": "   {\r\n            \"id\": 5,\r\n            \"name\": \"HONDA\"\r\n        }",
+					"pathVariables": {}
+				},
+				{
+					"id": "513a76fd-36da-4fcd-a00e-61d9ea921926",
+					"uid": "0-513a76fd-36da-4fcd-a00e-61d9ea921926",
+					"name": "Add",
+					"url": "https://localhost:44391/api/cars",
+					"description": "",
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "2af7700a-422e-4dc5-a126-8044e1d2a4a2",
+					"rawModeData": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "8feba790-2004-4d36-a776-1e5a92440398",
+					"uid": "0-8feba790-2004-4d36-a776-1e5a92440398",
+					"name": "Get",
+					"url": null,
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": null,
+					"queryParams": null,
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "2af7700a-422e-4dc5-a126-8044e1d2a4a2"
+				},
+				{
+					"id": "9eff5b11-fa4c-4be8-b0f7-209a2ec2cfb4",
+					"uid": "0-9eff5b11-fa4c-4be8-b0f7-209a2ec2cfb4",
+					"name": "Delete",
+					"url": "https://localhost:44391/api/brands/delete",
+					"description": "",
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "2af7700a-422e-4dc5-a126-8044e1d2a4a2",
+					"rawModeData": "     {\r\n            \"id\": 6,\r\n            \"name\": \"FIAT\"\r\n        }\r\n    ",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "d647ba75-8886-429f-be4e-952a3b6fec94",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
