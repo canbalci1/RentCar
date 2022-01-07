@@ -31,3 +31,5 @@
 <p>WebAPI katmanını kurdum.</p>
 <p>Business katmanındaki tüm servislerin Api karşılığını yazdım.</p>
 <p>Postman'de test ettim.</p>
+<h5>07.01.2022</h5>
+<p>JWT,Cache, Transaction, Performance aspect'leri eklendi</p>
