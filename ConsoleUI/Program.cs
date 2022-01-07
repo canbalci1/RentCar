@@ -50,23 +50,23 @@ namespace ConsoleUI
             }
         }
 
-        private static void UserTest()
-        {
-            UserManager userManager = new UserManager(new EfUserDal());
-            var result = userManager.GetAll();
-            if (result.Success == true)
-            {
-                foreach (var user in result.Data)
-                {
-                    Console.WriteLine(user.Id + "-" + user.FirstName+ "-" +user.LastName+ "-"+user.Email+ "-" + user.Password);
-                }
-            }
-            else
-            {
-                Console.WriteLine(result.Message);
-            }
+        //private static void UserTest()
+        //{
+        //    UserManager userManager = new UserManager(new EfUserDal());
+        //    var result = userManager.GetAll();
+        //    if (result.Success == true)
+        //    {
+        //        foreach (var user in result.Data)
+        //        {
+        //            Console.WriteLine(user.Id + "-" + user.FirstName+ "-" +user.LastName+ "-"+user.Email+ "-" + user.Password);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(result.Message);
+        //    }
 
-        }
+        //}
 
         private static void ColorTest()
         {
