@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading;
 
 namespace Business.Concrete
 {
@@ -33,6 +34,8 @@ namespace Business.Concrete
 
         public IDataResult<List<Customer>> GetAll()
         {
+            //Thread.Sleep(5000);
+
             return new SuccessDataResult<List<Customer>>(_customerDal.GetAll(), Messages.CustomerListed);
         }
 
